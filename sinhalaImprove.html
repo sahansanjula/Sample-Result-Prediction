@@ -1,0 +1,234 @@
+<html>
+    <head>
+        <title>Results Prediction System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
+    </head>
+    <body style="width:auto; overflow-x: hidden">
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #355486;" >
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="homepage.html"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.php">Log out</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="privacypolicy.html">Privacy Policy</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#"><pre>                                                                                                                </pre></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="text-center">
+            <div class="jumbotron">
+                <h2>Improvements In Sinhala</h2>
+            </div>
+            <br>
+        </div>
+
+        <div class="row justify-content-around">
+			<div class="card" style="width: 50rem;">
+				<div class="card-body">
+					<div class="text-center">
+						<form action ="sinhalaResponse.php" method="GET">
+                                <table>
+                                	<!-- <tr>
+                                        <td>
+								            <h4>Grammar</h4>
+                                        </td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>
+                                            <p style=" color: #f01123">Marks are given out of 10.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala11">1.Use correct tenses.</label>   
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala11" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala12">2.Use correct adjectives, adverbs,Synonims, opposites etc.</label> 
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala12" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+								            <div class="form-group">
+								            	
+									            <label for="sinhala13">3.Use correct Punctuation marks.</label>  
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala13" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                   <!--  <tr>
+                                        <td>
+								            <h4> Creativity</h4>
+                                        </td>
+                                    </tr> -->
+
+                                    <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala21">4.Use comparisons in essay questions.</label> 
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala21" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala22">5.Present idea clearly and attractively.</label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala22" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala23">6.Use knowledge gain by external sources in answering questions.</label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala23" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <!-- <tr>
+                                        <td>
+								            <h4> Vocabulary</h4>
+                                        </td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala31">7.Use different words to explain the idea. </label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala31" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala32">8.Use synonyms, opposits,adverbs, adjectives etc.</
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala32" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala33">9.Use correct spellings in writing.</label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala33" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                   <!--  <tr>
+                                        <td>
+								            <h4> Literature knowledge</h4>
+                                        </td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala41">10.Answer essay questions in descriptive way.</label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala41" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala42">11.Use relavant examples in answering questions.</label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala42" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>
+								            <div class="form-group">
+									            <label for="sinhala43">12.Having extra knowledge aquire from books.</label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                               <input type="text" class="form-control" name="sinhala43" min="00" max="10" value="00">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                    
+							<input class="btn btn-primary btn-lg" type="submit" name="submit" value="Enter" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>        
+    </body>
+</html>
